@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="css/style.min.css" />
+	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+	<title>Виселица</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__body">
+					<div class="header__title">
+						<h1><a href="index.html">Виселица!</a></h1>
+					</div>
+					<div class="burger"><span></span></div>
+					<nav class="header__menu">
+						<ul class="header__items">
+							<li id="random" class="header__item">Случайная</li>
+							<li id="animals" class="header__item">Животные</li>
+							<li id="drinks" class="header__item">Напитки</li>
+							<li id="country" class="header__item">Страны</li>
+							<li id="hobby" class="header__item">Хобби</li>
+							<li id="food" class="header__item">Еда</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<div class="content">
+			<div class="game">
+				<div class="container">
+					<div class="game__body">
+						<div class="images">
+							<img src="img/frame-0.png" alt="">
+							<img src="img/frame-1.png" alt="" class="alive">
+							<img src="img/frame-2.png" alt="" class="alive">
+							<img src="img/frame-3.png" alt="" class="alive">
+							<img src="img/frame-4.png" alt="" class="alive">
+							<img src="img/frame-5.png" alt="" class="alive">
+							<img src="img/frame-6.png" alt="" class="alive">
+							<img src="img/frame-7.png" alt="" class="alive">
+						</div>
+						<div class="gameword"></div>
+						<div class="alphabeta"></div>
+					</div>
+				</div>
+			</div>
+			<div hidden class="result__message start--message message--color"></div>
+			<div class="msmessage">
+				<div class="msmessage__body">Ваш браузер не поддерживается!</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container"></div>
+		</footer>
+	</div>
+	<script type="text/javascript" src="js/Viselitsa.min.js"></script>
+</body>
+
+</html>
