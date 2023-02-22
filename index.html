@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Для современных браузеров -->
+<link rel="shortcut icon" href="images/favicons/favicon.png" type="image/x-icon">
+<!-- Для Apple Touch и iOS-->
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<!-- Для Android -->
+<link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" type="text/css" href="css/style.min.css?_v=20230222224715">
+    <title>Виселица</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <div class="container">
+        <div class="header__body">
+            <div class="header__title">
+                <h1><a href="index.html">Виселица!</a></h1>
+            </div>
+            <div class="burger" tabindex="0" data-burger><span></span></div>
+<nav class="menu" data-menu>
+    <ul class="menu__items" data-menu-list>
+        <li id="random" class="menu__item" tabindex="0" data-menu-item>Случайная</li>
+        <li id="animals" class="menu__item" tabindex="0" data-menu-item>Животные</li>
+        <li id="drinks" class="menu__item" tabindex="0" data-menu-item>Напитки</li>
+        <li id="country" class="menu__item" tabindex="0" data-menu-item>Страны</li>
+        <li id="hobby" class="menu__item" tabindex="0" data-menu-item>Хобби</li>
+        <li id="food" class="menu__item" tabindex="0" data-menu-item>Еда</li>
+    </ul>
+</nav>
+        </div>
+    </div>
+</header>
+        <main class="content">
+            <div class="game">
+                <div class="container">
+                    <div class="game__body">
+                        <div class="images">
+    <img src="images/frame-0.png" alt="">
+    <img src="images/frame-1.png" alt="" class="alive">
+    <img src="images/frame-2.png" alt="" class="alive">
+    <img src="images/frame-3.png" alt="" class="alive">
+    <img src="images/frame-4.png" alt="" class="alive">
+    <img src="images/frame-5.png" alt="" class="alive">
+    <img src="images/frame-6.png" alt="" class="alive">
+    <img src="images/frame-7.png" alt="" class="alive">
+</div>
+                        <div class="gameword"></div>
+                        <div class="alphabeta"></div>
+                    </div>
+                </div>
+            </div>
+            <div hidden class="result__message start--message message--color"></div>
+            <div class="msmessage">
+    <div class="msmessage__body">Ваш браузер не&#160;поддерживается!</div>
+</div>
+        </main>
+        <footer class="footer"></footer>
+    </div>
+    <script src="js/script.min.js?_v=20230222224715"></script>
+</body>
+
+</html>
